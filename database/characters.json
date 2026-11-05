@@ -1,0 +1,71 @@
+{
+    "characters": {
+        "ostoj": {
+            "name": "Ostoj",
+            "realName": "TODECIDE",
+            "reincarnations": [
+                {
+                    "reincarnationNumber": 0,
+                    "birthYear": 1902,
+                    "deathYear": 1931,
+                    "currentAge": null,
+                    "ageAtDeath": 29,
+                    "occupations": ["farmer", "medicine"],
+                    "family": "His family are good people who remain in the original commune instead of joining La Sango de Drangaar (Drangaar's Disciples). Their souls are considered lost by the cult.",        
+                    "relationships": "Lost all relationships to old cult, keeping only the cultists as friends",
+                    "extraInfo": "Regretted joining one year into the separation, so he was killed."
+                },
+                {
+                    "reincarnationNumber": 1,
+                    "birthYear": 1931,
+                    "deathYear": 1949,
+                    "currentAge": null,
+                    "ageAtDeath": 18,
+                    "occupations": ["farmer", "medicine", "forager"],
+                    "family": "His family are still alive during his lifetime. He feels sad about being separated from them and wants to meet them.",
+                    "relationships": "People still gave him a chance with his new reincarnation.",
+                    "extraInfo": "Tried to escape the cult, so he was killed."
+                },
+                {
+                    "reincarnationNumber": 2,
+                    "birthYear": 1949,
+                    "deathYear": 1969,
+                    "currentAge": null,
+                    "ageAtDeath": 20,
+                    "occupations": ["farmer", "medicine", "forager", "miner"],
+                    "family": "He doesn't care about his family. He feels anger toward them for never having stopped his first self from joining the cult.",
+                    "relationships": "None, as he rejects everyone.",
+                    "extraInfo": "Violent towards others which made him different from who he's supposed to be, so he was killed."
+                },
+                {
+                    "reincarnationNumber": 3,
+                    "birthYear": 1969,
+                    "deathYear": null,
+                    "currentAge": 24,
+                    "ageAtDeath": null,
+                    "occupations": ["farmer", "medicine", "forager", "miner", "entertainer", "tinkerer", "tailoring"],
+                    "family": "He never met them, so he has no personal attachment to them. Despite being taught that he should hate them for rejecting the cult, he doesn't care about them, which goes against the cult's teachings.",
+                    "relationships": "Weird relationships with everyone, as he is paranoid and a little erratic at times. Though he has a few secret friends who enjoy his eccentric vibe.",
+                    "extraInfo": "Developed severe PTSD from being part of a cult that hates him makes him have auditory and/or visual hallucinations only in extremely stressful moments. He will hear the other three incarnations, however he doesn't adapt to their personalities: he might choose to listen to one of them (for a roleplay scenario, it might be random or it might be the most convenient for the scene's outcome and what the other roleplayer might be most comfortable with)."
+                }
+            ]
+        },
+        "karno": {
+            "name": "Karno",
+            "realName": "TODECIDE",
+            "reincarnations": [
+                {
+                    "reincarnationNumber": 0,
+                    "birthYear": 1961,
+                    "deathYear": null,
+                    "currentAge": 32,
+                    "ageAtDeath": null,
+                    "occupations": ["enforcer", "TOBEDECIDED"],
+                    "family": "TOBEFILLED",
+                    "relationships": "TOBEFILLED",
+                    "extraInfo": "TOBEFILLED"
+                }
+            ]
+        }
+    }
+}
