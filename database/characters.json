@@ -3,9 +3,12 @@
         "ostoj": {
             "name": "Ostoj",
             "realName": "TODECIDE",
+            "title": "Pekulo (Sinner)",
+            "description": "Description to be written",
             "reincarnations": [
                 {
                     "reincarnationNumber": 0,
+                    "reincarnationLabel": "Fresh shell",
                     "birthYear": 1902,
                     "deathYear": 1931,
                     "currentAge": null,
@@ -13,10 +16,12 @@
                     "occupations": ["farmer", "medicine"],
                     "family": "His family are good people who remain in the original commune instead of joining La Sango de Drangaar (Drangaar's Disciples). Their souls are considered lost by the cult.",        
                     "relationships": "Lost all relationships to old cult, keeping only the cultists as friends",
-                    "extraInfo": "Regretted joining one year into the separation, so he was killed."
+                    "extraInfo": "Regretted joining one year into the separation, so he was killed.",
+                    "briefDescription": ""
                 },
                 {
                     "reincarnationNumber": 1,
+                    "reincarnationLabel": "First reincarnation",
                     "birthYear": 1931,
                     "deathYear": 1949,
                     "currentAge": null,
@@ -24,10 +29,12 @@
                     "occupations": ["farmer", "medicine", "forager"],
                     "family": "His family are still alive during his lifetime. He feels sad about being separated from them and wants to meet them.",
                     "relationships": "People still gave him a chance with his new reincarnation.",
-                    "extraInfo": "Tried to escape the cult, so he was killed."
+                    "extraInfo": "Tried to escape the cult, so he was killed.",
+                    "briefDescription": ""
                 },
                 {
                     "reincarnationNumber": 2,
+                    "reincarnationLabel": "Second reincarnation",
                     "birthYear": 1949,
                     "deathYear": 1969,
                     "currentAge": null,
@@ -35,10 +42,12 @@
                     "occupations": ["farmer", "medicine", "forager", "miner"],
                     "family": "He doesn't care about his family. He feels anger toward them for never having stopped his first self from joining the cult.",
                     "relationships": "None, as he rejects everyone.",
-                    "extraInfo": "Violent towards others which made him different from who he's supposed to be, so he was killed."
+                    "extraInfo": "Violent towards others which made him different from who he's supposed to be, so he was killed.",
+                    "briefDescription": ""
                 },
                 {
                     "reincarnationNumber": 3,
+                    "reincarnationLabel": "Third reincarnation",
                     "birthYear": 1969,
                     "deathYear": null,
                     "currentAge": 24,
@@ -46,16 +55,20 @@
                     "occupations": ["farmer", "medicine", "forager", "miner", "entertainer", "tinkerer", "tailoring"],
                     "family": "He never met them, so he has no personal attachment to them. Despite being taught that he should hate them for rejecting the cult, he doesn't care about them, which goes against the cult's teachings.",
                     "relationships": "Weird relationships with everyone, as he is paranoid and a little erratic at times. Though he has a few secret friends who enjoy his eccentric vibe.",
-                    "extraInfo": "Developed severe PTSD from being part of a cult that hates him makes him have auditory and/or visual hallucinations only in extremely stressful moments. He will hear the other three incarnations, however he doesn't adapt to their personalities: he might choose to listen to one of them (for a roleplay scenario, it might be random or it might be the most convenient for the scene's outcome and what the other roleplayer might be most comfortable with)."
+                    "extraInfo": "Developed severe PTSD from being part of a cult that hates him makes him have auditory and/or visual hallucinations mostly in extremely stressful moments. He will hear the other three incarnations, however he doesn't adapt to their personalities: he might choose to listen to one of them (for a roleplay scenario: it might be random (1d4), it might be the most convenient for the scene's outcome, it might be what the other roleplayer might be most comfortable with, or it might be none if the players around are uncomfortable or if it stalls the scene).",
+                    "briefDescription": ""
                 }
             ]
         },
         "karno": {
             "name": "Karno",
             "realName": "TODECIDE",
+            "title": "Devigisto (Enforcer)",
+            "description": "Description to be written",
             "reincarnations": [
                 {
                     "reincarnationNumber": 0,
+                    "reincarnationLabel": "Fresh shell",
                     "birthYear": 1961,
                     "deathYear": null,
                     "currentAge": 32,
@@ -63,7 +76,76 @@
                     "occupations": ["enforcer", "TOBEDECIDED"],
                     "family": "TOBEFILLED",
                     "relationships": "TOBEFILLED",
-                    "extraInfo": "TOBEFILLED"
+                    "extraInfo": "TOBEFILLED",
+                    "briefDescription": ""
+                }
+            ]
+        },
+        "preacher": {
+            "name": "Preacher's name",
+            "realName": null,
+            "title": "Predikisto (Preacher)",
+            "description": "A young man that practiced psychology in the prime time of unethical human experimentation. When he learnt about a community that wanted to escape the second industrial revolution and continue living in harmony and in nature, he infiltrated by pretending he wanted to help and worked from the inside by manipulating people into believing what he wanted, as he knew who to influence and how since he'd know their deepest fears and secrets or instill new fears in them that only he could fix. That fix was the creation of a cult, one he didn't believe in, but he gained followers that he manipulated to do his will by 'granting them eternal life' by a God he made up on the spot. Once they establish themselves at the bottom of the creek, it takes him almost a couple decades of ruling before he's murdered and 'reincarnated', then groomed to believe that he only used to be a Preacher. His ruling is harsher than before, iron-fist style. His psychology notes are kept unopened and protected by the Enforcer.",
+            "reincarnations": [
+                {
+                    "reincarnationNumber": 0,
+                    "reincarnationLabel": "Fresh shell",
+                    "birthYear": 1890,
+                    "deathYear": 1935,
+                    "currentAge": null,
+                    "ageAtDeath": 45,
+                    "occupations": ["psychologist", "preacher"],
+                    "family": "Left behind his parents, his wife, and his children to start his experiment. Inside the cult, has his own bastard son (the Priest).",
+                    "relationships": "All he is now is venerated, so all his relationships are based on his power over other people. The relationship with his new son is more of a guardian and teacher than a father.",
+                    "extraInfo": "Doesn't believe in the cult's teachings, which he changes to his convenience anytime just to see reactions. Was killed against his will to reincarnate.",
+                    "briefDescription": "A psychologist that wanted to experiment on human beings, joining a decent community to attempt to destroy all they worked for just by the power of people's minds."
+                },
+                {
+                    "reincarnationNumber": 1,
+                    "reincarnationLabel": "First reincarnation",
+                    "birthYear": 1935,
+                    "deathYear": 1993,
+                    "currentAge": null,
+                    "ageAtDeath": 58,
+                    "occupations": ["preacher"],
+                    "family": "He would have never been told of his past family, so he wouldn't know about them. He still has his son (the Priest) on his first shell",
+                    "relationships": "All he is now is venerated, so all his relationships are based on his power over other people. The relationship with his new son at the start is of respect but mostly being respected. He then assumes more of a guardian and teacher role rather than a father role.",
+                    "extraInfo": "Spiritual and organizational leader. His word is absolute truth, even in the event of contradiction.",
+                    "briefDescription": "The new incarnation of the Preacher. He rules with an iron fist, and his understanding of English is pretty bad and used only as a basic second language because he is too far into believing that only Esperanto should be spoken."
+                }
+            ]
+        },
+        "priest": {
+            "name": "Priest's name",
+            "realName": null,
+            "title": "Pastro (Priest)",
+            "description": "Just another victim in the psychiatrist's play, his only role being the person that prepares the reincarnation ritual for the Priest and prepares the new shell for ruling.",
+            "reincarnations": [
+                {
+                    "reincarnationNumber": 0,
+                    "reincarnationLabel": "Fresh shell",
+                    "birthYear": 1930,
+                    "deathYear": 1970,
+                    "currentAge": null,
+                    "ageAtDeath": 40,
+                    "occupations": ["priest"],
+                    "family": "The Preacher is his father.",
+                    "relationships": "Has some friends, ",
+                    "extraInfo": "Doesn't know about the Preacher's other family.",
+                    "briefDescription": "The firstborn child of the Preacher. Groomed to prepare and mentor the Preacher's successive shell for their role."
+                },
+                {
+                    "reincarnationNumber": 1,
+                    "reincarnationLabel": "First reincarnation",
+                    "birthYear": 1970,
+                    "deathYear": 1993,
+                    "currentAge": null,
+                    "ageAtDeath": 23,
+                    "occupations": ["priest"],
+                    "family": "The Preacher is his father.",
+                    "relationships": "Has some friends, but if the Preacher says to leave them, he does.",
+                    "extraInfo": "Probably the least important character in this list.",
+                    "briefDescription": "The firstborn child of the Preacher. Groomed to prepare and mentor the Preacher's successive shell for their role."
                 }
             ]
         }
