@@ -2,3 +2,25 @@ body{
     background-color: #1e1e1e;
     color: antiquewhite;
 }
+
+#main-characters-container{
+    background-color: rgb(45, 44, 44);
+}
+
+.character-container{
+    background-color: #403d3d;
+    border: red solid 2px;
+    margin: 15px 0px;
+}
+
+.character-info-container{
+    background-color: #615555;
+}
+
+.reincarnation-buttons-container{
+    background-color: #8e7f7f;
+}
+
+.reincarnation-info-container{
+    background-color: #3e2020;
+}

@@ -86,6 +86,7 @@
     /* You should see Ostoj's description printed in the Console */
 
 
+
 // ----------------------------------------------
 // LEARNING TO DISPLAY INFORMATION ON THE WEBPAGE
 // ----------------------------------------------
@@ -195,4 +196,159 @@ The resulting HTML would look like this:
     });
 */
 // This would be repetition, which would be a problem the more characters we need to add. Because of this, we need to use loops
+
+
+
+// ---------------------------------------
+// LEARNING TO ADD INFORMATION USING LOOPS
+// ---------------------------------------
+
+// Step 1 - Understanding what we need to iterate through
+/* Explanation: 
+Our data.characters object looks like this:
+    {
+        ostoj: {...},
+        karno: {...},
+        preacher: {...},
+        priest: {...}
+    }
+
+We want JavaScript to go through each property:
+    1. ostoj
+    2. karno
+    3. preacher
+    4. priest
+But there's a small obstacle: objects don't have the same numbered indexes as arrays.
+
+That's why we use:
+    const characters = Object.keys(data.characters);
+
+>> Object.keys() retrieves the names of all the properties and returns them as an array. <<
+
+The resulting array looks like this:
+    ["ostoj", "karno", "preacher", "priest"]
+
+We can now use our regular for loop.
+*/
+
+
+// Step 2 - Going through the characters
+/* Explanation:
+Let's write the loop:
+    const characters = Object.keys(data.characters);
+    for (let i = 0; i < characters.length; i++) {}
+
+Let's break it down:
+Code	                Purpose
+let i = 0	            Creates a counter starting at zero.
+i < characters.length   Keeps looping while the counter is smaller than the array length.
+i++	                    Increases the counter by one after each iteration.
+
+This should look familiar from your previous work with reincarnations.
+*/
+
+
+// Step 3 - Retrieving each character
+/* Explanation:
+Now we need to retrieve the actual character object.
+
+Remember, characters[i] gives us a property name, not the character itself.
+For example: characters[0] returns "ostoj".
+
+We can use that property name to access the original object: data.characters[characters[i]]
+
+Let's store the result in a variable: const characters = Object.keys(data.characters);
+
+    for (let i = 0; i < characters.length; i++) {
+        const character = data.characters[characters[i]];
+    }
+
+Now, during each iteration, character refers to a different character object.
+What happens during the loop?
+0                   1                   2                   3
+characters[0]       characters[1]       characters[2]       characters[3]
+ostoj               karno               preacher            priest
+Ostoj               Karno               Preacher            Priest
+
+Each iteration retrieves a different character object.
+*/
+
+
+// Step 4 - Creating the HTML elements inside the loop
+/* Explanation:
+Here's where things become interesting.
+
+Previously, we created elements individually:
+    const txtCharacterName = document.createElement("h2");
+    const txtCharacterDescription = document.createElement("p");
+
+But now we can put those instructions inside the loop.
+    for (let i = 0; i < characters.length; i++) {
+        const character = data.characters[characters[i]];
+
+        const txtCharacterName = document.createElement("h2");
+        const txtCharacterDescription = document.createElement("p");
+    }
+
+Why inside the loop?
+Because every iteration needs to create a new heading and a new paragraph.
+If we created them outside the loop, we wouldn't get four separate headings and paragraphs.
+*/
+
+
+// Step 5 - Putting the information inside the elements
+/* Explanation:
+This part should be familiar:
+    txtCharacterName.textContent = character.name;
+    txtCharacterDescription.textContent = character.description;
+
+Notice that we no longer write ostoj.name or karno.name.
+We simply write character.name.
+Why? Because character changes with every iteration!
+*/
+
+
+// Step 6 - Adding the elements to the webpage
+/* Explanation:
+Finally, we add them to the body:
+    document.body.appendChild(txtCharacterName);
+    document.body.appendChild(txtCharacterDescription);
+Again, these instructions belong inside the loop.
+
+Otherwise, we wouldn't append the elements created during each iteration.
+*/
+
+
+// Step 7 - Putting everything together
+/* Explanation:
+Here's the complete result:
+    fetch("database/characters.json")
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+
+            const characters = Object.keys(data.characters);
+
+            for (let i = 0; i < characters.length; i++) {
+
+                const character = data.characters[characters[i]];
+
+                const txtCharacterName = document.createElement("h2");
+                const txtCharacterDescription = document.createElement("p");
+
+                txtCharacterName.textContent = character.name;
+                txtCharacterDescription.textContent = character.description;
+
+                document.body.appendChild(txtCharacterName);
+                document.body.appendChild(txtCharacterDescription);
+
+            }
+
+        });
+
+What we've achieved: the webpage now generates the headings and descriptions for all four characters automatically.
+
+You no longer need to write separate instructions for Ostoj, Karno, the Preacher, and the Priest.
+*/
 
