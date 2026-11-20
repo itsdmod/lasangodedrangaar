@@ -60,6 +60,8 @@ fetch("database/characters.json")
                 bttnReincarnation.addEventListener("click", function() {
                     txtReincarnationLabel.textContent = reincarnations[j].reincarnationLabel;
                     briefDescriptionValue.textContent = reincarnations[j].briefDescription;
+                    briefDescriptionValue.hidden = reincarnations[j].briefDescription == null;
+                    physicalDescriptionValue.textContent = reincarnations[j].physicalDescription;
                     birthYearValue.textContent = reincarnations[j].birthYear;
                     txtDeathYear.hidden = reincarnations[j].deathYear == null;
                     deathYearValue.textContent = reincarnations[j].deathYear;
@@ -83,6 +85,9 @@ fetch("database/characters.json")
 
             const txtReincarnationLabel = document.createElement("h3");
             const briefDescriptionValue = document.createElement("p");
+            const txtPhysicalDescription = document.createElement("p");
+                const physicalDescriptionLabel = document.createElement("strong");
+                const physicalDescriptionValue = document.createElement("span");
             const txtBirthYear = document.createElement("p");
                 const birthYearLabel = document.createElement("strong");
                 const birthYearValue = document.createElement("span");
@@ -111,6 +116,8 @@ fetch("database/characters.json")
 
             txtReincarnationLabel.textContent = latestReincarnation.reincarnationLabel;
             briefDescriptionValue.textContent = latestReincarnation.briefDescription;
+            physicalDescriptionLabel.textContent = "Physical description: ";
+            physicalDescriptionValue.textContent = latestReincarnation.physicalDescription;
             birthYearLabel.textContent = "Birth year: ";
             birthYearValue.textContent = latestReincarnation.birthYear;
             deathYearLabel.textContent = "Death year: ";
@@ -131,6 +138,10 @@ fetch("database/characters.json")
 
             reincarnationInfoContainer.appendChild(txtReincarnationLabel);
             reincarnationInfoContainer.appendChild(briefDescriptionValue);
+            briefDescriptionValue.hidden = latestReincarnation.briefDescription == null;
+            reincarnationInfoContainer.appendChild(txtPhysicalDescription);
+                txtPhysicalDescription.appendChild(physicalDescriptionLabel);
+                txtPhysicalDescription.appendChild(physicalDescriptionValue);
             reincarnationInfoContainer.appendChild(txtBirthYear);
                 txtBirthYear.appendChild(birthYearLabel);
                 txtBirthYear.appendChild(birthYearValue);

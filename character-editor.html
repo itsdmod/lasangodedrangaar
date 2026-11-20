@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Character JSON editor</title>
+  <!-- This specific page was done with chatGPT -->
+</head>
+<body>
+  <main>
+    <h1>Character text editor</h1>
+    <p>Edit character descriptions and reincarnation text, then download the updated JSON.</p>
+
+    <p id="status" role="status">Loading character data…</p>
+
+    <table>
+      <tbody>
+        <tr>
+          <th scope="row"><label for="character-select">Character</label></th>
+          <td><select id="character-select" disabled></select></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Character text</h2>
+    <table>
+      <tbody id="character-fields" aria-label="Character text"></tbody>
+    </table>
+
+    <h2>Reincarnation text</h2>
+    <table>
+      <tbody>
+        <tr>
+          <th scope="row"><label for="reincarnation-select">Reincarnation</label></th>
+          <td><select id="reincarnation-select" disabled></select></td>
+        </tr>
+      </tbody>
+      <tbody id="reincarnation-fields" aria-label="Reincarnation text"></tbody>
+    </table>
+
+    <p>
+      <button id="download-button" type="button" disabled>Download updated characters.json</button>
+      <button id="reset-button" type="button" disabled>Discard edits and reload</button>
+    </p>
+  </main>
+  <script src="scripts/character-editor.js"></script>
+</body>
+</html>
